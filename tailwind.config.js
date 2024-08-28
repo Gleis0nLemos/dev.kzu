@@ -13,6 +13,12 @@ export default {
         'link': '#4C3BCF',
         'type-gray': '#31363F',
         'lime': '#4CCD99' 
+      },
+      backgroundImage: {
+        'gradient-1': 'linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb)',
+        'gradient-2': 'linear-gradient(to right, #636FA4, #E8CBC0)',
+        'gradient-3': 'linear-gradient(to left, #6A82FB, #FC5C7D)',
+        'gradient-4': 'linear-gradient(to right, #F0CB35, #C02425)',
       }
     },
   },
