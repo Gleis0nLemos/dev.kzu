@@ -47,26 +47,28 @@ const Projects = () => {
     },
   ]
   return (
-    <div className="container mx-auto mt-24 justify-start items-center max-w-3xl">
-      <div className="flex items-center gap-2">
-        <h1 className="text-link">Projects</h1>
-        <div>
-          <hr className="w-[10px] border-t-2 border-link" />
+    <div className="pt-12">
+      <div className="container mx-auto mt-12 justify-start items-center max-w-3xl">
+        <div className="flex items-center gap-2">
+          <h1 className="text-link">Projects</h1>
+          <div>
+            <hr className="w-[10px] border-t-2 border-link" />
+          </div>
         </div>
-      </div>
-      <div>
-        <h1 className="text-2xl font-semibold">Stuff I've Worked On</h1>
-        <div className="grid grid-cols-3 gap-4 mt-4">
-          {projectList.map((project, index) => (
-            <ProjectCard 
-              key={index}
-              title={project.title}
-              bgColor={project.bgColor}
-              gitHubLink={project.githubLink}
-              deployLink={project.deployLink}
-              languages={project.languages}
-            />
-          ))}
+        <div>
+          <h1 className="text-2xl font-semibold">Stuff I've Worked On</h1>
+          <div className="grid grid-cols-3 gap-4 mt-4">
+            {projectList.map((project, index) => (
+              <ProjectCard 
+                key={index}
+                title={project.title}
+                bgColor={project.bgColor}
+                gitHubLink={project.githubLink}
+                deployLink={project.deployLink}
+                languages={project.languages}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </div>

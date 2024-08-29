@@ -7,3 +7,7 @@ body {
 .c-max-width {
   max-width: 500px;
 }
+
+html {
+  scroll-behavior: smooth;
+}
