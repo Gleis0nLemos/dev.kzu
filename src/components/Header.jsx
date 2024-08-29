@@ -2,7 +2,7 @@ const Header = () => {
   return (  
     <div>
       <nav className="flex justify-center items-center pt-8">
-        <ul className="flex gap-5 items-center text-sm">
+        <ul className="flex gap-12 items-center text-sm">
           <li className="bg-type-gray px-5 py-1 rounded-full">
             <a 
               href="#" 

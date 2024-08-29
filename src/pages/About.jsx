@@ -1,9 +1,11 @@
 const About = () => {
-  return (  
-    <div className="container mx-auto mt-28 justify-start items-center max-w-3xl">
-      <div className="flex gap-2">
+  return (
+    <div className="container mx-auto mt-48 justify-start items-center max-w-3xl">
+      <div className="flex items-center gap-2">
         <h1 className="text-link">About</h1>
-        <span className="text-type-gray text-bold">--</span>
+        <div>
+          <hr className="w-[10px] border-t-2 border-link" />
+        </div>
       </div>
 
       <h1 className="text-2xl font-semibold">Hi! I'm Gleison👋🏻</h1>
@@ -12,5 +14,5 @@ const About = () => {
     </div>
   );
 }
- 
+
 export default About;
