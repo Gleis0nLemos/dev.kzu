@@ -10,7 +10,7 @@ export default {
         'primary': '#000', //#1E201E', '#191815'
         'secondary': '#F7F9F2',
         'tertiary': '#EEEEEE',
-        'link': '#4C3BCF',
+        'link': '#864AF9',
         'type-gray': '#31363F',
         'lime': '#4CCD99',
         'dark-gray': '#1F1F1F',
