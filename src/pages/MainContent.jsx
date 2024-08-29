@@ -2,6 +2,7 @@ import Layout from "../layouts/MainLayout";
 import Home from "./Home";
 import About from "./About";
 import Projects from "./Projects";
+import Contact from "./Contact";
 
 const MainContent = () => {
   return (  
@@ -9,6 +10,7 @@ const MainContent = () => {
       <Home />
       <About />
       <Projects />
+      <Contact />    
     </Layout>
   );
 }
