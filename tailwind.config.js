@@ -25,6 +25,10 @@ export default {
         'gradient-2': 'linear-gradient(to right, #636FA4, #E8CBC0)',
         'gradient-3': 'linear-gradient(to right, #b993d6, #8ca6db)',
         'gradient-4': 'linear-gradient(to left, #fc4a1a, #f7b733)',
+        'gradient-5': 'linear-gradient(to right, #efefbb, #d4d3dd)',
+        'gradient-6': 'linear-gradient(to right, #83a4d4, #b6fbff)',
+        'gradient-7': 'linear-gradient(to left, #ffefba, #ffffff)',
+        'gradient-8': 'linear-gradient(to right, #a1ffce, #faffd1)',
       }
     },
   },

@@ -4,46 +4,33 @@ const Projects = () => {
 
   const projectList = [
     {
-      title: "Project 1",
-      bgColor: "bg-gradient-1",
-      githubLink: "https://github.com/Gleis0nLemos",
-      deployLink: "https://github.com/Gleis0nLemos",
-      languages: ["PHP", "Laravel", "SQL"],
+      title: "Digital Store",
+      bgColor: "bg-gradient-5",
+      githubLink: "https://github.com/Gleis0nLemos/digital_store",
+      deployLink: "https://digital-store-eta.vercel.app/",
+      languages: ["JS", "React", "Tailwind"],
+      description: "Frontend challenger by Geração Tech. This project serves as the foundational frontend for a fully responsive and comprehensive ecommerce platform. 🛒",
     },
     {
-      title: "Project 2",
-      bgColor: "bg-gradient-2",
-      githubLink: "https://github.com/Gleis0nLemos",
-      deployLink: "https://github.com/Gleis0nLemos",
-      languages: ["PHP", "Laravel", "SQL"],
+      title: "Todo List",
+      bgColor: "bg-gradient-6",
+      githubLink: "https://github.com/Gleis0nLemos/To_do",
+      languages: ["Python", "JS", "HTML", "CSS"],
+      description: "Daily to-do list project for personal organization, It's straightforward and simple to use. 📝",
     },
     {
-      title: "Project 3",
-      bgColor: "bg-gradient-3",
-      githubLink: "https://github.com/Gleis0nLemos",
-      deployLink: "https://github.com/Gleis0nLemos",
-      languages: ["PHP", "Laravel", "SQL"],
+      title: "Backend Challenge",
+      bgColor: "bg-gradient-7",
+      githubLink: "https://github.com/Gleis0nLemos/project-backend-gt",
+      languages: ["JS", "NodeJS", "SQL"],
+      description: "Complete CRUD implementation using Node.js and MySQL. It includes user creation ]]with JWT authentication and additional endpoints with basic security for now. 🚀",
     },
     {
-      title: "Project 4",
-      bgColor: "bg-gradient-4",
-      githubLink: "https://github.com/Gleis0nLemos",
-      deployLink: "https://github.com/Gleis0nLemos",
-      languages: ["PHP", "Laravel", "SQL"],
-    },
-    {
-      title: "Project 5",
-      bgColor: "bg-gradient-1",
-      githubLink: "https://github.com/Gleis0nLemos",
-      deployLink: "https://github.com/Gleis0nLemos",
-      languages: ["PHP", "Laravel", "SQL"],
-    },
-    {
-      title: "Project 6",
-      bgColor: "bg-gradient-2",
-      githubLink: "https://github.com/Gleis0nLemos",
-      deployLink: "https://github.com/Gleis0nLemos",
-      languages: ["PHP", "Laravel", "SQL"],
+      title: "Super Gestão",
+      bgColor: "bg-gradient-8",
+      githubLink: "https://github.com/Gleis0nLemos/super_gestao",
+      languages: ["PHP", "Laravel", "SQL", "Docker"],
+      description: "Complete CRUD implementation in PHP following the best practices. Apologies for the missing README.md. 🦈",
     },
   ]
   return (
@@ -66,6 +53,7 @@ const Projects = () => {
                 gitHubLink={project.githubLink}
                 deployLink={project.deployLink}
                 languages={project.languages}
+                description={project.description}
               />
             ))}
           </div>

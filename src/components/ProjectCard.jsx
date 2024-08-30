@@ -1,9 +1,17 @@
 import { VscGithub } from "react-icons/vsc";
 import { GrShare } from "react-icons/gr";
+import { useState } from "react";
 
-const ProjectCard = ({ title, bgColor, gitHubLink, deployLink, languages }) => {
+const ProjectCard = ({ title, bgColor, gitHubLink, deployLink, languages, description }) => {
+  
+  const [isHovered, setIsHovered] = useState(false);
+
   return (
-    <div className={`px-4 py-2 h-[243px] flex flex-col justify-between ${bgColor} text-primary`}>
+    <div 
+      className={`px-4 py-2 h-[243px] flex flex-col justify-between ${isHovered ? 'bg-primary text-secondary border border-dark-gray-3': `${bgColor} text-primary` }`}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
       <div className="flex justify-end gap-4 mt-2">
         <a 
           href={gitHubLink}
@@ -26,7 +34,11 @@ const ProjectCard = ({ title, bgColor, gitHubLink, deployLink, languages }) => {
       </div>
       
       <div className="flex-1 flex items-center justify-center">
-        <h2 className="text-3xl font-black text-center">{title}</h2>
+        {isHovered && description ? (
+          <p className="text-sm text-center text-secondary">{description}</p>
+        ) : (
+          <h2 className="text-3xl font-black text-center">{title}</h2>
+        )}
       </div>
       
       <div className="flex justify-center gap-2">
