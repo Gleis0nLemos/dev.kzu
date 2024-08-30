@@ -35,7 +35,7 @@ const Projects = () => {
   ]
   return (
     <div className="pt-12">
-      <div className="container mx-auto mt-12 justify-start items-center max-w-3xl">
+      <div className="container mx-auto mt-5 md:mt-12 justify-start items-center max-w-3xl">
         <div className="flex items-center gap-2">
           <h1 className="text-link">Projects</h1>
           <div>
@@ -44,7 +44,7 @@ const Projects = () => {
         </div>
         <div>
           <h1 className="text-2xl font-semibold">Stuff I've Worked On</h1>
-          <div className="grid grid-cols-3 gap-4 mt-4">
+          <div className="grid md:grid-cols-3 gap-4 mt-4">
             {projectList.map((project, index) => (
               <ProjectCard 
                 key={index}

@@ -8,7 +8,7 @@ const ProjectCard = ({ title, bgColor, gitHubLink, deployLink, languages, descri
 
   return (
     <div 
-      className={`px-4 py-2 h-[243px] flex flex-col justify-between ${isHovered ? 'bg-primary text-secondary border border-dark-gray-3': `${bgColor} text-primary` }`}
+      className={`px-4 py-2 h-[150px] md:h-[243px] flex flex-col justify-between ${isHovered ? 'bg-primary text-secondary border border-dark-gray-3': `${bgColor} text-primary` }`}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
@@ -37,7 +37,7 @@ const ProjectCard = ({ title, bgColor, gitHubLink, deployLink, languages, descri
         {isHovered && description ? (
           <p className="text-sm text-center text-secondary">{description}</p>
         ) : (
-          <h2 className="text-3xl font-black text-center">{title}</h2>
+          <h2 className="text-2xl md:text-3xl font-black text-center">{title}</h2>
         )}
       </div>
       

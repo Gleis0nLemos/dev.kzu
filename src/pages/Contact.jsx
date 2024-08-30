@@ -30,7 +30,7 @@ const Contact = () => {
     },
   ]
   return (
-    <div className="container mx-auto mt-24 justify-start items-center max-w-3xl">
+    <div className="container mx-auto mt-20 md:mt-24 justify-start items-center max-w-3xl">
       <div className="flex items-center gap-2">
         <h1 className="text-link">On The Web</h1>
         <div>
@@ -39,7 +39,7 @@ const Contact = () => {
       </div>
       <div>
         <h1 className="text-2xl font-semibold">More of my work</h1>
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           {contactList.map((contact, index) => (
               <ContactCard 
                 key={index}
@@ -50,7 +50,7 @@ const Contact = () => {
             ))}
         </div>
       </div>
-      <div className="flex items-center gap-2 mt-24">
+      <div className="flex items-center gap-2 mt-20 md:mt-24">
         <h1 className="text-link">Contact</h1>
         <div>
           <hr className="w-[10px] border-t-2 border-link" />

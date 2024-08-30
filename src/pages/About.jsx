@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <div className="pt-12">
-      <div className="container mx-auto mt-36 justify-start items-center max-w-3xl">
+      <div className="container mx-auto mt-20 md:mt-36 justify-start items-center max-w-3xl">
         <div className="flex items-center gap-2">
           <h1 className="text-link">About</h1>
           <div>

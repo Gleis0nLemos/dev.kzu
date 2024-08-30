@@ -28,8 +28,8 @@ const Header = () => {
 
   return (
     <div className="fixed top-0 left-0 w-full z-50 flex justify-center">
-      <nav className={`mt-4 py-2 duration-200 delay-100 ${isScrolled ? 'bg-dark-gray-2/70 backdrop-blur-sm px-2 rounded-full' : 'bg-transparent'}`}>
-        <ul className={`flex gap-6 items-center text-sm ${isScrolled ? 'text-terciary' : 'text-light-gray'} `}>
+      <nav className={`mt-4 md:mt-4 py-2 duration-200 delay-100 ${isScrolled ? 'bg-dark-gray-2/70 backdrop-blur-sm px-2 rounded-full' : 'bg-transparent'}`}>
+        <ul className={`flex md:gap-6 items-center text-sm ${isScrolled ? 'text-terciary' : 'text-light-gray'} `}>
 
           <a href="#home" className="block">
             <li
