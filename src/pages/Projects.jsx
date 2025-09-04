@@ -12,6 +12,13 @@ const Projects = () => {
       description: "Frontend challenger by Geração Tech. This project serves as the foundational frontend for a fully responsive and comprehensive ecommerce platform. 🛒",
     },
     {
+      title: "Shorter-URL",
+      bgColor: "bg-gradient-2",
+      githubLink: "https://github.com/Gleis0nLemos/shorter-url",
+      languages: ["Nestjs", "Ts", "Postgres", "Docker"],
+      description: "A scalable URL shortening service that transforms long URLs into concise, shareable links while maintaining robust analytics and security.🦈",
+    },
+    {
       title: "Todo List",
       bgColor: "bg-gradient-6",
       githubLink: "https://github.com/Gleis0nLemos/To_do",

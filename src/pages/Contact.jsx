@@ -3,6 +3,7 @@ import { RiInstagramLine } from "react-icons/ri";
 import { RiLinkedinFill } from "react-icons/ri";
 import { BiLogoGmail } from "react-icons/bi";
 import ContactCard from "../components/ContactCard";
+import { FaDochub } from "react-icons/fa";
 
 
 const Contact = () => {
@@ -27,6 +28,11 @@ const Contact = () => {
       title: "Gmail",
       icon: <BiLogoGmail />,
       socialLink: "mailto:gleison04lemos@gmail.com",
+    },
+    {
+      title: "Curriculum Vitae",
+      icon: <FaDochub />,
+      socialLink: "https://drive.google.com/file/d/1LY5jd_GY1eKXw2Bv0qwYI8xQHjZxhOkI/view?usp=sharing",
     },
   ]
   return (
